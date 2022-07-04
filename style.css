@@ -4,6 +4,37 @@ body {
     padding: 0;
 }
 
+h1 {
+    font-size: 50px;
+    color: orange;
+}
+
+h3 {
+    font-size: 30px;
+}
+
 .flexible-section {
     display:flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(#f8d0a2, #d06237);
+    color: white;
+    padding: 10px 40px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url("top-corner.jpg");
+    background-repeat: no-repeat;
 }
