@@ -58,3 +58,7 @@ h3 {
     color: white;
     background-image: linear-gradient(#f8d0a2, #d06237);
 }
+
+footer p {
+    text-align: center;
+}
