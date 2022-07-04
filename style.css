@@ -8,9 +8,18 @@ h1 {
     font-size: 50px;
     color: orange;
 }
+.kai {
+    color: orange;
+}
+.ahm {
+    color: #d06237;
+}
 
 h3 {
     font-size: 30px;
+}
+h4 {
+    font-size: 20px;
 }
 
 .flexible-section {
@@ -58,7 +67,8 @@ h3 {
     box-shadow: 10px 10px 30px gray;
 }
 .q-width p {
-    padding-left: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .q-width:hover {
@@ -69,6 +79,7 @@ h3 {
 .q-width h3 {
     background-color: #f8d0a2;
     text-align: center;
+    text-align: justify;
 }
 
 footer p {
