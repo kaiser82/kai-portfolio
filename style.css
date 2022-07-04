@@ -15,7 +15,7 @@ h3 {
 
 .flexible-section {
     display:flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -43,4 +43,18 @@ h3 {
 .personal {
     background-image: url("top-b.jpg");
     background-repeat: no-repeat;
+}
+
+.q-width {
+    width: 33%;
+    padding-left: 5%;
+    margin: 0% 2%;
+    border-left: 5px solid #d06237;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+.q-width:hover {
+    color: white;
+    background-image: linear-gradient(#f8d0a2, #d06237);
 }
