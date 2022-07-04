@@ -35,6 +35,10 @@ h3 {
     border-radius: 5px;
 }
 
+.link-button:hover {
+    background-image: linear-gradient(#d06237, #f8d0a2);
+}
+
 .top-banner {
     background-image: url("top-b.jpg");
     background-repeat: no-repeat;
@@ -47,11 +51,14 @@ h3 {
 
 .q-width {
     width: 33%;
-    padding-left: 5%;
+   
     margin: 0% 2%;
     border-left: 5px solid #d06237;
     border-radius: 5px;
     box-shadow: 10px 10px 30px gray;
+}
+.q-width p {
+    padding-left: 2%;
 }
 
 .q-width:hover {
@@ -59,6 +66,15 @@ h3 {
     background-image: linear-gradient(#f8d0a2, #d06237);
 }
 
+.q-width h3 {
+    background-color: #f8d0a2;
+    text-align: center;
+}
+
 footer p {
     text-align: center;
+}
+
+.padding-left {
+    padding-left: 5%;
 }
