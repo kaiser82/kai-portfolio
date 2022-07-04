@@ -15,6 +15,7 @@ h3 {
 
 .flexible-section {
     display:flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -35,6 +36,11 @@ h3 {
 }
 
 .top-banner {
-    background-image: url("top-corner.jpg");
+    background-image: url("top-b.jpg");
+    background-repeat: no-repeat;
+}
+
+.personal {
+    background-image: url("top-b.jpg");
     background-repeat: no-repeat;
 }
